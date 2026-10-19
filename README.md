@@ -21,3 +21,7 @@ caller-supplied synthetic values, not live quotes or official closing prices.
 This starter does not implement tax-lot accounting, fee calculation, billing,
 authorization, durable storage, or valuation approvals. Use only synthetic
 data; do not use the output for investment, tax, or billing decisions.
+
+The GitHub Actions **CodeQL** workflow scans C# on pushes to `main`, pull
+requests targeting `main`, manual dispatch, and weekly. Review findings under
+**Security → Code scanning** in GitHub.
